@@ -3,8 +3,8 @@ BAG_prim $BAG_TECH_CONFIG_DIR/DesignModules
 #demo_testbenches $BAG_WORK_DIR/BAG_XBase_demo/BagModules
 #bag_advanced_examples $BAG_WORK_DIR/bag_advanced_examples/BagModules
 #bag_testbenches $BAG_WORK_DIR/bag_testbenches/BagModules
-adc_sar_templates $BAG_WORK_DIR/laygo/generators/adc_sar_jdhan/BagModules
-clk_dis_templates $BAG_WORK_DIR/laygo/generators/adc_sar_jdhan/BagModules
-logic_templates $BAG_WORK_DIR/laygo/generators/logic/BagModules
-serdes_templates $BAG_WORK_DIR/laygo/generators/serdes/BagModules
+#adc_sar_templates $BAG_WORK_DIR/laygo/generators/adc_sar_jdhan/BagModules
+#clk_dis_templates $BAG_WORK_DIR/laygo/generators/adc_sar_jdhan/BagModules
+#logic_templates $BAG_WORK_DIR/laygo/generators/logic/BagModules
+#serdes_templates $BAG_WORK_DIR/laygo/generators/serdes/BagModules
 
