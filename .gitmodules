@@ -1,0 +1,15 @@
+[submodule "BAG_framework"]
+	path = BAG_framework
+	url = https://github.com/niftylab/BAG_framework.git
+[submodule "cds_ff_mpt"]
+	path = cds_ff_mpt
+	url = https://github.com/niftylab/cds_ff_mpt.git
+[submodule "BAG2_TEMPLATES_EC"]
+	path = BAG2_TEMPLATES_EC
+	url = https://github.com/niftylab/BAG2_TEMPLATES_EC.git
+[submodule "laygo"]
+	path = laygo
+	url = https://github.com/niftylab/laygo.git
+[submodule "laygo2"]
+	path = laygo2
+	url = https://github.com/niftylab/laygo2.git

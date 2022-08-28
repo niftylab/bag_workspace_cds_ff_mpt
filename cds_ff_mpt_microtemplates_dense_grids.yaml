@@ -1,0 +1,745 @@
+cds_ff_mpt_microtemplates_dense:
+  placement_basic:
+    type: placement
+    xgrid:
+    - 0
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.048
+    ygrid:
+    - 0
+  route_M1_M2_basic:
+    type: route
+    viamap:
+      via_M1_M2_0:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M1
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.096
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M2
+      - drawing
+    ywidth:
+    - 0.032
+  route_M1_M2_basic_thick:
+    type: route
+    viamap:
+      via_M1_M2_1:
+      - - 0
+        - 0
+      - - 0
+        - 1
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M1
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.48
+    ycolor: []
+    ygrid:
+    - 0.144
+    - 0.336
+    ylayer:
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    ywidth:
+    - 0.096
+    - 0.096
+  route_M1_M2_cmos:
+    type: route
+    viamap:
+      via_M1_M2_0:
+      - - 0
+        - 1
+      - - 0
+        - 2
+      - - 0
+        - 4
+      - - 0
+        - 6
+      - - 0
+        - 7
+      via_M1_M2_1:
+      - 0
+      - 0
+      via_M1_M2_2:
+      - - 0
+        - 3
+      - - 0
+        - 5
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M1
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.96
+    ycolor: []
+    ygrid:
+    - 0.0
+    - 0.144
+    - 0.24
+    - 0.384
+    - 0.48
+    - 0.576
+    - 0.72
+    - 0.816
+    ylayer:
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    ywidth:
+    - 0.096
+    - 0.032
+    - 0.032
+    - 0.032
+    - 0.032
+    - 0.032
+    - 0.032
+    - 0.032
+  route_M1_M2_mos:
+    type: route
+    viamap:
+      via_M1_M2_0:
+      - - 0
+        - 1
+      - - 0
+        - 2
+      via_M1_M2_1:
+      - 0
+      - 0
+      via_M1_M2_2:
+      - 0
+      - 3
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M1
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.48
+    ycolor: []
+    ygrid:
+    - 0.0
+    - 0.144
+    - 0.24
+    - 0.384
+    ylayer:
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    ywidth:
+    - 0.096
+    - 0.032
+    - 0.032
+    - 0.032
+  route_M2_M3_basic:
+    type: route
+    viamap:
+      via_M2_M3_0:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M3
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.064
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M2
+      - drawing
+    ywidth:
+    - 0.032
+  route_M2_M3_basic_thick:
+    type: route
+    viamap:
+      via_M2_M3_2:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M3
+      - drawing
+    xwidth:
+    - 0.096
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.172
+    - 0.086
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M2
+      - drawing
+    ywidth:
+    - 0.032
+  route_M2_M3_cmos:
+    type: route
+    viamap:
+      via_M2_M3_0:
+      - - 0
+        - 1
+      - - 0
+        - 2
+      - - 0
+        - 3
+      - - 0
+        - 4
+      - - 0
+        - 5
+      - - 0
+        - 6
+      - - 0
+        - 7
+      via_M2_M3_1:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M3
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.96
+    ycolor: []
+    ygrid:
+    - 0.0
+    - 0.144
+    - 0.24
+    - 0.384
+    - 0.48
+    - 0.576
+    - 0.72
+    - 0.816
+    ylayer:
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    ywidth:
+    - 0.096
+    - 0.032
+    - 0.032
+    - 0.032
+    - 0.032
+    - 0.032
+    - 0.032
+    - 0.032
+  route_M2_M3_mos:
+    type: route
+    viamap:
+      via_M2_M3_0:
+      - - 0
+        - 1
+      - - 0
+        - 2
+      - - 0
+        - 3
+      via_M2_M3_1:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M3
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.48
+    ycolor: []
+    ygrid:
+    - 0.0
+    - 0.144
+    - 0.24
+    - 0.384
+    ylayer:
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    ywidth:
+    - 0.096
+    - 0.032
+    - 0.032
+    - 0.032
+  route_M2_M3_thick_basic:
+    type: route
+    viamap:
+      via_M2_M3_1:
+      - - 0
+        - 0
+      - - 0
+        - 1
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M3
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.48
+    ycolor: []
+    ygrid:
+    - 0.144
+    - 0.336
+    ylayer:
+    - - M2
+      - drawing
+    - - M2
+      - drawing
+    ywidth:
+    - 0.096
+    - 0.096
+  route_M3_M4_basic:
+    type: route
+    viamap:
+      via_M3_M4_0:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M3
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.064
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M4
+      - drawing
+    ywidth:
+    - 0.032
+  route_M3_M4_basic_thick:
+    type: route
+    viamap:
+      via_M3_M4_1:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M3
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.24
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M4
+      - drawing
+    ywidth:
+    - 0.096
+  route_M3_M4_dense:
+    type: route
+    viamap:
+      via_M3_M4_0:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M3
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.064
+    - 0.064
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M4
+      - drawing
+    ywidth:
+    - 0.032
+  route_M3_M4_thick:
+    type: route
+    viamap:
+      via_M3_M4_2:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M3
+      - drawing
+    xwidth:
+    - 0.096
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.172
+    - 0.24
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M4
+      - drawing
+    ywidth:
+    - 0.096
+  route_M4_M5_basic:
+    type: route
+    viamap:
+      via_M4_M5_0:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M5
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.064
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M4
+      - drawing
+    ywidth:
+    - 0.032
+  route_M4_M5_basic_thick:
+    type: route
+    viamap:
+      via_M4_M5_1:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M5
+      - drawing
+    xwidth:
+    - 0.096
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.172
+    - 0.064
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M4
+      - drawing
+    ywidth:
+    - 0.032
+  route_M4_M5_thick:
+    type: route
+    viamap:
+      via_M4_M5_2:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M5
+      - drawing
+    xwidth:
+    - 0.096
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.172
+    - 0.24
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M4
+      - drawing
+    ywidth:
+    - 0.096
+  route_M4_M5_thick_basic:
+    type: route
+    viamap:
+      via_M4_M5_3:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M5
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.24
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M4
+      - drawing
+    ywidth:
+    - 0.096
+  route_M5_M6_basic:
+    type: route
+    viamap:
+      via_M5_M6_0:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M5
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.064
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M6
+      - drawing
+    ywidth:
+    - 0.032
+  route_M5_M6_basic_thick:
+    type: route
+    viamap:
+      via_M5_M6_1:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M5
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.24
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M6
+      - drawing
+    ywidth:
+    - 0.096
+  route_M5_M6_thick:
+    type: route
+    viamap:
+      via_M5_M6_2:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M5
+      - drawing
+    xwidth:
+    - 0.096
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.172
+    - 0.24
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M6
+      - drawing
+    ywidth:
+    - 0.096
+  route_M5_M6_thick_basic:
+    type: route
+    viamap:
+      via_M5_M6_3:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M5
+      - drawing
+    xwidth:
+    - 0.096
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.172
+    - 0.064
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M6
+      - drawing
+    ywidth:
+    - 0.032
+  route_M6_M7_basic:
+    type: route
+    viamap:
+      via_M6_M7_0:
+      - 0
+      - 0
+    xgrid:
+    - 0.0
+    xlayer:
+    - - M7
+      - drawing
+    xwidth:
+    - 0.032
+    xy0:
+    - 0.0
+    - 0.0
+    xy1:
+    - 0.086
+    - 0.064
+    ycolor: []
+    ygrid:
+    - 0.0
+    ylayer:
+    - - M6
+      - drawing
+    ywidth:
+    - 0.032
